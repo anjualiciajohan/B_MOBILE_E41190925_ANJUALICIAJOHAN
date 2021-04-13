@@ -1,0 +1,59 @@
+?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActitivty">
+
+    <EditText
+        android:id="@+id/edt_reminder_name"
+        android:hint="@string/reminder_name"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spinner_date"
+        android:layout_below="@id/edt_reminder_name"
+        android:spinnerMode="dropdown"
+        android:entries="@array/spdate"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_reminder_name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/spinner_date"
+        android:layout_toRightOf="@id/spinner_date"
+        android:entries="@array/spjam"
+        android:padding="16dp"
+        android:spinnerMode="dropdown"
+        />
+
+    <Button
+        android:id="@+id/btn_done"
+        android:text="@string/done"
+        android:layout_below="@id/spinner_clock"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

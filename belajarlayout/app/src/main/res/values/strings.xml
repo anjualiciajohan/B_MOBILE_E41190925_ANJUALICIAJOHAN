@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Main Dashboard</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="reminder_name">Reminder Name</string>
+    <string name="done">done</string>
+    <string name="text_button">Text Button</string>
+
+    <string name="_1">1</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="_2">2</string>
+    <string name="Relative_layout">Relative Layout</string>
+    <string name="_3">3</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="_4">4</string>
+    <string name="Frame_layout">Frame Layout</string>
+    <string name="_5">5</string>
+    <string name="Tabel_layout">Tabel Layout</string>
+    <string name="_6">6</string>
+    <string name="MaterialDesign">Material Design</string>
+    <string name="_7">7</string>
+    <string name="ScrolView">Scroll View</string>
+    <string name="_8">8</string>
+    <string name="ScrollViewHorizontal">Scroll View Horizontal</string>
+    <string-array name="spjam">
+        <item>8:00 AM</item>
+    </string-array>
+    <string-array name="spdate">
+        <item>Wed, June 27, 2012</item>
+    </string-array>
+</resources>
