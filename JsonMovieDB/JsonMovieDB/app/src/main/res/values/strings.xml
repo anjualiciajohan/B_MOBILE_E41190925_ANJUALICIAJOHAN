@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JSON and API</string>
+    <string name="welcome">Hello bunga, welcome to our application</string>
+    <string name="rekomen">Rekomendasi Film</string>
+</resources>
